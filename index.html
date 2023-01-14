@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/7b322a3ff8.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Account Validator</title>
+  </head>
+  <body>
+      <div class="container">
+          <div class="header">
+              <h2>Create Account
+            </div>
+        
+            <form id="form" class="form">
+              <div class="form-control">
+            <label>Username</label>
+            <input type="text" placeholder="example17" id="username" />
+            <i class="fa-solid fa-check-circle"></i>
+            <i class="fa-solid fa-circle-exclamation"></i>
+            <small>Error message</small>
+          </div>
+
+          <div class="form-control">
+            <label>Email</label>
+            <input type="email" placeholder="example@example.com" id="email" />
+            <i class="fa-solid fa-check-circle"></i>
+            <i class="fa-solid fa-circle-exclamation"></i>
+            <small>Error message</small>
+          </div>
+
+          <div class="form-control">
+            <label>Password</label>
+            <input type="password" placeholder="Password" id="password" />
+            <i class="fa-solid fa-check-circle"></i>
+            <i class="fa-solid fa-circle-exclamation"></i>
+            <small>Error message</small>
+          </div>
+
+          <div class="form-control">
+            <label>Enter Your Password Again</label>
+            <input type="password" placeholder="Password Check" id="passwordCheck" />
+            <i class="fa-solid fa-check-circle"></i>
+            <i class="fa-solid fa-circle-exclamation"></i>
+            <small>Error message</small>
+          </div>
+
+          <button>Submit</button>
+        </form>
+      </div>
+
+      
+  
+    <script src="email-validation.js"></script>
+  </body>
+</html>
